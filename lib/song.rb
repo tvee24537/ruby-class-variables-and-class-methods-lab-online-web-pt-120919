@@ -15,10 +15,10 @@ class Song
     @genre = genre
     @@genres << @genre
     @@artists << @artist
-    @@songCount +=1
+    @@count +=1
   end
   
-  def self.genres
+  def self.genres#using .uniq removes dups.
     @@genres.uniq
   end
 
