@@ -3,6 +3,10 @@ class Song
   
   @@songCount = 0
   
+  def self.count
+    @@songCount
+  end
+  
   
   
 end
