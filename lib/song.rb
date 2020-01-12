@@ -1,0 +1,3 @@
+class Song
+  attr
+end
